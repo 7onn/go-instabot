@@ -2,10 +2,7 @@ module github.com/tducasse/go-instabot
 
 go 1.17
 
-require (
-	github.com/Davincible/goinsta v0.0.0-20220425072628-96aad7267204
-	github.com/spf13/viper v1.15.0
-)
+require github.com/spf13/viper v1.15.0
 
 require (
 	github.com/Davincible/goinsta/v3 v3.2.6 // indirect
