@@ -26,4 +26,4 @@ jobs:
           CONFIG_FILE: ${{secrets.CONFIG_FILE}}
 
       - name: test
-        run: go run . -run -noduplicate
+        run: go run . -run -noduplicate -nomail
