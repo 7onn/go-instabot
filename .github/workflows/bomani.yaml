@@ -1,9 +1,10 @@
 on: 
-  schedule:
-  - cron: "* */8 * * *"
+  # schedule:
+  # - cron: "* */8 * * *"
   push:
     branches:
-    - master
+    # - master
+    - dev
 
 jobs:
   test:
